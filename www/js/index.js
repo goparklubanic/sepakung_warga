@@ -1,9 +1,9 @@
 $(document).ready(function(){
   $('#login').click(function(){
-	$("#LoginLog").html('Contacting server: '+serviceUrl);
+	
     $.post(
       serviceUrl+'warga.php',{
-        does    : 'kulanuwun',
+        does  : 'kulanuwun',
         uname : $('#username').val(),
         upass : $('#password').val()
       },
