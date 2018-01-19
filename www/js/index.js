@@ -16,14 +16,17 @@ $(document).ready(function(){
 		posting.done(function( data ) {
 			
 			var user = JSON.parse(data);
-			$('#LoginLog').append(
-			"<p>NIK     :"+user.nik+"</p>"+
-			"<p>Nama    :"+user.nama+"</p>"+
-			"<p>L/P     :"+user.kelamin+"</p>"+
-			"<p>Tg Lahir:"+user.tgLahir+"</p>"+
-			"<p>RT      :"+user.rt+"</p>"+
-			"<p>RW      :"+user.rw+"</p>"
-			);
+			if(user.nik == null ){
+				window.location='galo.html';
+			}else{
+			
+				$("#LoginLog").html('Login Berhasil');
+				localStorage.setItem('nik',user.nik);
+				localStorage.setItem('nama',user.nama);
+				localStorage.setItem('sex',user.kelamin);
+				localStorage.setItem('lahir',user.tgLahir);
+				localStorage.setItem('rtrw',user.rt + user.rw);
+				window.location='index.html';
 		});
 		
 		posting.fail(function(xhr, status, error){
