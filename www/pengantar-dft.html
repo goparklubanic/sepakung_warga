@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <!--meta http-equiv="Content-Security-Policy"
+          content="default-src 'self' data: gap: https://ssl.gstatic.com 'unsafe-eval';
+          style-src 'self' 'unsafe-inline';
+          media-src *; img-src 'self' data: content:;"-->
+        <meta http-equiv="Content-Security-Policy"
+              content="default-src *;
+                   script-src 'self' 'unsafe-inline' 'unsafe-eval'
+                               127.0.0.1:*
+                               http://*.google.com
+                               http://*.gstatic.com
+                               http://*.googleapis.com
+                               http://*.firebaseio.com
+                               https://*.google.com
+                               https://*.gstatic.com
+                               https://*.googleapis.com
+                               https://*.firebaseio.com
+                               ;
+                   style-src  'self' 'unsafe-inline'
+                              127.0.0.1
+                               http://*.google.com
+                               http://*.gstatic.com
+                               http://*.googleapis.com
+                               http://*.firebaseio.com
+                               https://*.google.com
+                               https://*.gstatic.com
+                               https://*.googleapis.com
+                               https://*.firebaseio.com" />
+        <meta name="format-detection" content="telephone=no">
+        <meta name="msapplication-tap-highlight" content="no">
+        <meta charset="utf-8" />
+        <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width">
+        <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css" />
+        <script type="text/javascript" src="js/jquery.min.js"></script>
+        <script type="text/javascript" src="js/bootstrap.min.js"></script>
+        <link rel="stylesheet" type="text/css" href="css/google-fonts.css">
+        <link rel="stylesheet" type="text/css" href="css/index.css">
+        <script type="text/javascript" src="js/remoteservice.js"></script>
+        <script type="text/javascript" src="js/pengantar-dft.js"></script>
+        <title>NAGARI</title>
+    </head>
+    <body>
+      <div class="container">
+        <div class="header-box">
+          <img class="app-img" src="img/logo.png" />
+          <p class="app-title-abbr">NAGARI</p>
+          <p class="app-title-desc">Layanan Warga Mandiri</p>
+        </div>
+        <div class="row">
+          <div class="row-bar">
+            <p>DAFTAR PENGAJUAN PENGANTAR</p>
+            <ul id="reflist" class="list-group">
+            </ul>
+          </div>
+        </div>
+          
+        
+        <div class='row row-nav'>
+          <button class='btn btn-nav' id="backTomain">Kembali</button>
+        </div>
+      </div> <!-- container -->
+    </body>
+</html>

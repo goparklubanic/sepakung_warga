@@ -1,0 +1,25 @@
+#login-box {
+  width: 320px; paddng: 20px 10px; margin: auto;
+}
+.header-box {width: 100%; padding: 5px 20px; margin: 20px 0;}
+img.app-img { display:block; width:66px; margin: 10px auto;}
+.header-box p {text-align: center; margin: 0;}
+.header-box p.app-title-abbr {
+  font-family: 'Overlock', cursive; font-size: 24px; font-weight: bold;
+  letter-spacing: 10px;
+}
+.header-box p.app-title-desc {font-family: 'Arima Madurai', cursive; }
+
+/* main html */
+.list-group-item span{margin: 1px 3px;}
+.list-group-item span.list-title {
+  font-family: 'Overlock', cursive; font-size: 2em;
+}
+
+
+.btn-mnu {display: block; width: 100%; max-width: 340px; margin: 5px auto; padding: 10px;}
+.btn-nav {display: block; width: 300px; margin: auto;}
+
+ul#reflist li p {margin: 0; padding: 0px; border: 0px solid gray; }
+ul#reflist li p label.reflist {width: 100px;}
+/* 'Arima Madurai', cursive; 'Overlock', cursive; */
