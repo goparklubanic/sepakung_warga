@@ -26,7 +26,8 @@ $(document).ready(function(){
 				localStorage.setItem('sex',user.kelamin);
 				localStorage.setItem('lahir',user.tgLahir);
 				localStorage.setItem('rtrw',user.rt + user.rw);
-				window.location='index.html';
+				window.location='./index.html';
+			}
 		});
 		
 		posting.fail(function(xhr, status, error){
