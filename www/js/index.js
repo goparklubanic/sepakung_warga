@@ -13,6 +13,8 @@ $(document).ready(function(){
         if(user.nik == null ){
 			window.location='galo.html';
 		}else{
+		$('#LoginLog').html(respon);
+		/*
         $("#LoginLog").html('Login Berhasil');
         localStorage.setItem('nik',user.nik);
         localStorage.setItem('nama',user.nama);
@@ -20,7 +22,7 @@ $(document).ready(function(){
         localStorage.setItem('lahir',user.tgLahir);
         localStorage.setItem('rtrw',user.rt + user.rw);
         window.location='index.html';
- 
+		*/
 		}
       });
   });
