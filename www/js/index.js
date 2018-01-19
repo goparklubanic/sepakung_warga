@@ -26,8 +26,12 @@ $(document).ready(function(){
 			);
 		});
 		
-		posting.fail(function(){
-			$("#LoginLog").html('Error Tak Dikenal');
+		posting.fail(function(xhr, status, error){
+			var ex = "<p>"+xhr+"</p>";
+			var es = "<p>"+status+"</p>";
+			var er = "<p>"+error+"</p>";
+			var em = ex + es + er;
+			$("#LoginLog").html(em);
 		});
 	});
 	
