@@ -27,7 +27,7 @@ $(document).ready(function(){
 		});
 		
 		posting.fail(function(xhr, status, error){
-			var ex = "<p>"+xhr+"</p>";
+			var ex = "<p>"+xhr.responseText+"</p>";
 			var es = "<p>"+status+"</p>";
 			var er = "<p>"+error+"</p>";
 			var em = ex + es + er;
