@@ -1,5 +1,6 @@
 $(document).ready(function(){
   $('#login').click(function(){
+	$("#LoginLog").html('Contacting server: '+serviceUrl);
     $.post(
       serviceUrl+'warga.php',{
         does    : 'kulanuwun',
@@ -12,7 +13,7 @@ $(document).ready(function(){
         if(user.nik == null ){
 			window.location='galo.html';
 		}else{
-        // var user = JSON.parse(respon);
+        $("#LoginLog").html('Login Berhasil');
         alert('Login Berhasil');
         localStorage.setItem('nik',user.nik);
         localStorage.setItem('nama',user.nama);

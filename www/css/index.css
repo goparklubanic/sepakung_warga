@@ -10,6 +10,8 @@ img.app-img { display:block; width:66px; margin: 10px auto;}
 }
 .header-box p.app-title-desc {font-family: 'Arima Madurai', cursive; }
 
+input#login {height: 60px;}
+
 /* main html */
 .list-group-item span{margin: 1px 3px;}
 .list-group-item span.list-title {
