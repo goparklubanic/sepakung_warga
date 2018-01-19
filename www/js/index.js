@@ -13,6 +13,7 @@ $(document).ready(function(){
 			window.location='galo.html';
 		}else{
         // var user = JSON.parse(respon);
+        alert('Login Berhasil');
         localStorage.setItem('nik',user.nik);
         localStorage.setItem('nama',user.nama);
         localStorage.setItem('sex',user.kelamin);
