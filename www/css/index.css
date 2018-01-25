@@ -17,11 +17,13 @@ input#login {height: 60px;}
 .list-group-item span.list-title {
   font-family: 'Overlock', cursive; font-size: 2em;
 }
-
+.logout {background-color: #FF0000; color: #BFBFBF; font-size: 1.4em; 
+	text-align: center; padding: 10px 0px; margin: 10px 0px;}
 .owner{
 	font-family: 'Overlock',cursive; font-size: 1.5em; 
 	background: #D0D0D0; color: navy; padding: 10px;
 }
+#own-nike{font-size: 0.8em;}
 
 .btn-mnu {display: block; width: 100%; max-width: 340px; margin: 5px auto; padding: 10px;}
 .btn-nav {display: block; width: 300px; margin: auto;}

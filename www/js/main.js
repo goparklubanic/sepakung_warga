@@ -19,6 +19,12 @@ $(document).ready(function(){
 	getPosition();
 	
   });
+  
+  $(".logout").click(function(){
+	localStorage.setItem('nik','');  
+	localStorage.setItem('nama','');
+	window.location='uauth.html';
+  });
 });
 
 function isAuth(unik){

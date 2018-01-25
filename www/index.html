@@ -21,29 +21,6 @@
 			  img-src * data: 'unsafe-inline'; 
 			  connect-src * 'unsafe-inline'; 
 			  frame-src *;" />
-        <!--meta http-equiv="Content-Security-Policy"
-              content="default-src *;
-                   script-src 'self' 'unsafe-inline' 'unsafe-eval'
-                               127.0.0.1:*
-                               http://*.google.com
-                               http://*.gstatic.com
-                               http://*.googleapis.com
-                               http://*.firebaseio.com
-                               https://*.google.com
-                               https://*.gstatic.com
-                               https://*.googleapis.com
-                               https://*.firebaseio.com
-                               ;
-                   style-src  'self' 'unsafe-inline'
-                              127.0.0.1
-                               http://*.google.com
-                               http://*.gstatic.com
-                               http://*.googleapis.com
-                               http://*.firebaseio.com
-                               https://*.google.com
-                               https://*.gstatic.com
-                               https://*.googleapis.com
-                               https://*.firebaseio.com" /-->
         <meta name="format-detection" content="telephone=no">
         <meta name="msapplication-tap-highlight" content="no">
         <meta charset="utf-8" />
@@ -61,12 +38,12 @@
       <div class="container">
         <div class="header-box">
           <img class="app-img" src="img/logo.png" />
-          <p class="app-title-abbr">NAGARI</p>
-          <p class="app-title-desc">Layanan Warga Mandiri</p>
+          <p class="app-title-abbr">PAMDES</p>
+          <p class="app-title-desc">Pelayanan Administrasi Mandiri<br/>Desa Sepakung</p>
         </div>
         <div class="row">
           <div class="owner" style='text-align:center;'>
-            Pemilik: <span id="own-nama"></span>,&nbsp;NIK: <span id="own-nike"></span>
+            <span id="own-nama"></span><br/>[<span id="own-nike"></span>]
           </div>
           <ul class="list-group">
             <li class="list-group-item" id="pengantar">
@@ -81,6 +58,7 @@
               <span class='list-icon'><img src="img/panic.png"  /></span>
               <span class='list-title'>S O S</span>
             </li>
+            <li class="logout">Keluar</li>
           </ul>
           <div id='geoLoca' style="font-family:monospace; font-size: 10px;">
 			  

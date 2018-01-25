@@ -1,8 +1,8 @@
 <?xml version='1.0' encoding='utf-8'?>
 <widget id="id.web.klubaners.nagari" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0">
-    <name>NAGARI 01</name>
+    <name>PAMDES 0.1</name>
     <description>
-        LAYANAN WARGA MANDIRI DESA SEPAKUNG BANYUBIRU KAB. SEMARANG
+        PELAYANAN ADMINISTRASI MANDIRI DESA SEPAKUNG KECAMATAN BANYUBIRU KABUPATEN SEMARANG
     </description>
     <author email="support@phonegap.com" href="http://phonegap.com">
         CV. INCOME AMBARAWA

@@ -1,5 +1,5 @@
 $(document).ready(function(){
-	$("#LoginLog").html('Bersiap Login');
+	$("#LoginLog").html('');
 	$( "#login-form" ).submit(function( event ) {
  
 		// Stop form from submitting normally
@@ -16,13 +16,14 @@ $(document).ready(function(){
 		posting.done(function( data ) {
 			
 			var user = JSON.parse(data);
+			console.log(data);
 			if(user.nik == null ){
 				window.location='galo.html';
 			}else{
 			
 				$("#LoginLog").html('Login Berhasil');
 				localStorage.setItem('nik',user.nik);
-				localStorage.setItem('nama',user.nama);
+				localStorage.setItem('nama',user.nama_lengkap);
 				localStorage.setItem('sex',user.kelamin);
 				localStorage.setItem('lahir',user.tgLahir);
 				localStorage.setItem('rtrw',user.rt + user.rw);
