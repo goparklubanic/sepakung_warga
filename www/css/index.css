@@ -9,7 +9,8 @@ img.app-img { display:block; width:66px; margin: 10px auto;}
   letter-spacing: 10px;
 }
 .header-box p.app-title-desc {font-family: 'Arima Madurai', cursive; }
-
+.row-bar {padding: 10px 25px; text-align: center;}
+.app-form {padding: 10px 40px; }
 input#login {height: 60px;}
 
 /* main html */
